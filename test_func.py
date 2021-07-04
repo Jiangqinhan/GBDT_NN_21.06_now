@@ -23,4 +23,5 @@ def test_layers():
     out_put=my_layer(a)
 
 if __name__=="__main__":
-   test_layers()
+    #test_layers()
+    test_data()

@@ -348,6 +348,12 @@ date_gap
 目前的问题缺乏author的embedding
 对keyword和tag的处理不够充分
 
+
+user_interest的内容为Index(['userid', 'hist_tag', 'hist_keywords', 'hist_keywords_weights',
+       'hist_tag_weights'],
+      dtype='object')
+平常使用feed_info_modified
+
 Training until validation scores don't improve for 50 rounds.
 [50]	valid_0's auc: 0.932926
 [100]	valid_0's auc: 0.934089
