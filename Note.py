@@ -437,3 +437,8 @@ Early stopping, best iteration is:
 forward 0.7217473833983137
 0.6683893839348471
 '''
+if __name__=="__main__":
+    import pandas as pd
+    a={"userid":[1,2,3],"feedid":[2,3,4]}
+    a=pd.DataFrame(a)
+    print(a['userid'][0])
